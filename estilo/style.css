@@ -59,6 +59,10 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
+
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -66,14 +70,33 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(51, 51, 51, 0.133);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.246);
+    background-attachment: fixed;
     
 }
 
+section#img01{
+background-image: url('../imagens/insects-yellow-flower-ladybug-bug-red.jpg');
+background-position: right center;
+background-size: cover;
+
+}
+
+section#img02{
+background-image: url('../imagens/images\ \(1\).jpg');
+background-position: top left;
+background-size: cover;
+
+
+    
+}
 section.imagem > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.386);
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.371);
+    text-shadow: 1px 1px 0px black;
 
 }
 
